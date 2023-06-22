@@ -1,0 +1,26 @@
+.container{
+    padding-top: 20px;
+
+}
+.anh{
+    width: 700px;
+    height: 650px;
+    border-radius: 20px;
+}
+#text1{
+    background-color: #f5f5f5;
+    flex: 1 0 50%;
+    border-radius: 20px;
+}
+.tieude{
+    text-align: center;
+
+}
+.imgdai{
+    padding-top: 20px;
+}
+.imgblog{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}

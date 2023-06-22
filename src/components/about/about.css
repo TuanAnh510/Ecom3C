@@ -1,0 +1,138 @@
+.HeadingA{
+  text-align: center;
+}
+.about {
+  margin-bottom: 80px;
+}
+.about .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 15px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .about .containers {
+    flex-direction: column;
+  }
+  .about p {
+    padding: 0;
+  }
+ 
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100 20px;
+  max-width: 100%;
+}
+
+.image-container {
+  flex: 1 0 30%;
+}
+
+.image-container img {
+  width: 80%;
+  height: auto;
+  justify-content: center;
+  margin-left: 25px;
+  border-radius: 20px;
+}
+.image-container-two img {
+  margin-top: 10px; 
+}
+
+.text-container {
+  flex: 1 0 50%;
+  padding: 20px;
+  border-radius: 20px;
+  height: 300px;
+  
+}
+.text-container p{
+  font-size: 1.4rem;
+ 
+
+}
+
+@media (max-width: 767px) {
+  .image-container,
+  .text-container {
+    flex-basis: 100%;
+  }
+}
+.toggle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.arrow{
+  font-size: 20px;
+}
+ .arrow:hover{
+  color: #6698ff;
+ 
+}
+.toggle-button svg {
+  width: 24px;
+  height: 24px;
+  stroke: #333;
+}
+
+.toggle-button:hover svg {
+  stroke: #6698ff;
+}
+.toggle-button {
+  position: relative;
+  /* top: -3px; 
+  margin-left: 10px; */
+}
+.btn_show:hover{
+  color: #6698ff;
+  background-color: rgba(0,0,0,.03);
+}
+/* .btn_show:active, .btn_show:focus {
+  color: #2233cc;
+  background-color: rgba(151, 142, 142, 0.1);
+} */
+.btn_show{
+  display: flex;
+}
+.btn_showFirst{
+  display: flex;
+  padding-top: 20px;
+}
+.btn_showFirst:hover{
+  color: #6698ff;
+  background-color: rgba(0,0,0,.03);
+}
+.text_show{
+  font-size: 16px;
+}
+.div_show{
+  width: 80%;
+  margin-left: 56px;
+}
+@media screen and (max-width: 768px) {
+  .div_show{
+    width: 85%;
+    margin-left: 30px;
+  }
+}
+.about_diveder{
+  background-color: rgba(0,0,0,.4);
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

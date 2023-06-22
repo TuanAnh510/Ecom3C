@@ -1,0 +1,27 @@
+.Blog_heading {
+  margin: 50px 0;
+  background-image: url("../../../public/images/title_pattern.png");
+  height: 35px;
+  background-position: center;
+  width: 100%;
+}
+
+.heading {
+  margin: 0;
+  background-image: url("../../../public/images/title_pattern.png");
+  height: 35px;
+  background-position: center;
+  width: 100%;
+}
+
+.Blog_heading h6 {
+  font-weight: 400;
+
+  height: 35px;
+  width: 130px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}

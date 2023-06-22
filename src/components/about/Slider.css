@@ -1,0 +1,67 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: inherit;
+    height: 450px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 15px 12px 10px 10px;
+    background-color:rgba(255, 255, 255, 0.86);
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    margin-right: 100px;
+    
+  }
+  @media screen and (min-width: 768px) {
+    .each-slide-effect span {
+      width: 40%;
+
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .each-slide-effect span {
+      font-size: 12px;
+
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .each-slide-effect span {
+      width: 60%;
+      align-items: center;
+      justify-content:center;
+    }
+  }
+.slick-slide img{
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+.marquee div img {
+  padding-right: 80px; 
+}
+/* .custom-prev-arrow,
+.custom-next-arrow {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+  background-color: #eee;
+} */

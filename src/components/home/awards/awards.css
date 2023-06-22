@@ -1,0 +1,31 @@
+.awards {
+  /* background-color: #122947; */
+  /* background-image: url("https://everev.vn/wp-content/uploads/2022/11/de4bc02058319e6fc720.jpg"); */
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  border-top: 4px solid #6698ff;
+}
+
+.awards img {
+  height: 90vb;
+  object-fit: cover !important;
+  filter: brightness(50%);
+}
+
+.awards-title {
+  width: 50%;
+}
+
+
+
+.awards h2 {
+  font-size: 37px !important;
+  font-weight: bold !important;
+}
+
+.awards p {
+  font-size: 19px !important;
+  color: white;
+  text-align: center;
+}
